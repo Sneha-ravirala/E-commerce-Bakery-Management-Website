@@ -1,1 +1,8 @@
-# E-commerce-Bakery-Management-Website
+E-commerce Bakery Management Website is a web-based application designed for bakeries to showcase and manage their products online. It allows users to browse various bakery products categorized neatly, while an admin (employee of the bakery) has access to a secure dashboard to add, update, or delete product and category information. The application is built using Java, Spring Boot, Spring MVC, MySQL, Hibernate/JPA, Thymeleaf, HTML5, CSS3, and Bootstrap 5. This project follows the MVC architecture, ensuring a clear separation of concerns between the controller, service, repository, and view layers.
+
+The website provides a user-friendly interface where customers can easily explore different categories and view detailed product information. On the admin side, bakery employees can manage the entire inventory through a secure and responsive backend interface. All product and category data are stored in a MySQL database, and dynamic content rendering is handled through Thymeleaf templates.
+
+To run this project, clone the repository, configure your MySQL database credentials in the application.properties file, and run the application using your IDE or Maven. The website can be accessed at http://localhost:8080/. Though payment integration is not yet implemented, the project is structured to allow future enhancements such as integrating a payment gateway, adding user authentication, cart functionality, and product reviews.
+
+This project is created as part of a learning journey in full-stack development and demonstrates the integration of Java-based backend technologies with modern frontend design tools for a complete e-commerce solution.
+
